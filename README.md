@@ -1,7 +1,7 @@
 # Origamid - Web Design Completo
 
 
-Repositório para organização de materiais, exercícios e projetos relacionados ao curso.
+Repositório para organização de exercícios e projetos relacionados ao curso.
 
 ## Links Úteis
 
