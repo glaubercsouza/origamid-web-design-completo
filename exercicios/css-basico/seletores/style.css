@@ -1,0 +1,45 @@
+p {
+  color: #222;
+  font-size: 16px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #bbb;
+}
+
+div a, div p {
+  color: green;
+}
+
+* {
+  color: aqua;
+  text-transform: uppercase;
+}
+
+.btn-comprar {
+  color: black;
+}
+
+#principal {
+  width: 100px;
+}
+
+a {
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  background-color: black;
+}
+
+a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+a:visited {
+  color: orange
+}
