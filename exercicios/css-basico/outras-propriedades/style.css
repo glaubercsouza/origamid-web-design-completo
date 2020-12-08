@@ -1,10 +1,16 @@
 body {
   background-color: #333;
+  background-image: url("esporte-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 div {
-  width: 200px;
+  width: 400px;
   height: 400px;
   margin: 0 auto;
   background-color: #ccc;
+  background: url("esporte-4.jpeg") no-repeat center;
+  background-size: cover;
+  box-shadow: 10px 10px 5px #000000;
 }
