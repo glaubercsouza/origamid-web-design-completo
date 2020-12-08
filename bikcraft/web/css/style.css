@@ -17,7 +17,7 @@ p {
   font-size: 14px 21px;
   line-height: 20px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: bold;
 }
 
@@ -25,6 +25,7 @@ p {
   color: #fff;
   border-color: #fff;
 }
+
 /* Header */
 
 .header {
@@ -58,6 +59,7 @@ p {
 .header_menu ul li a:hover {
   color: #fff;
 }
+
 /* Introdução */
 
 .introducao {
