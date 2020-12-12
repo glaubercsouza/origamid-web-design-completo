@@ -44,7 +44,14 @@
   .produto_info ul li {
     width: 181px;
     height: 49px;
-  }
+	}
+	
+/* Contato */
+
+	.contato_form {
+		padding-right: 0px;
+	}
+
 }
 
 /* Estilo para smartphone */
@@ -161,6 +168,12 @@
 		padding-right: 0px;
 	}
 
+	/* Contato */
+
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
 
 }
-}
+
