@@ -74,7 +74,6 @@ img {
   background: #000;
 }
 
-
 /* Header */
 
 .header {
@@ -164,12 +163,12 @@ img {
 /* Introdução Interna */
 
 .introducao-interna {
-width: 100%;
-margin-top: 92px;
-height: 160px;
-color: #fff;
-text-align: center;
-padding-top: 40px;
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .introducao-interna h1 {
@@ -178,7 +177,7 @@ padding-top: 40px;
   text-transform: uppercase;
 }
 
-.introducao-interna h1:after{
+.introducao-interna h1:after {
   content: "";
   display: block;
   width: 60px;
@@ -388,18 +387,41 @@ padding-top: 40px;
 }
 
 /* JavaScript */
-/* 
-[data-slide] {
+
+.js [data-slide] {
   position: relative;
 }
-[data-slide] > * {
+.js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-[data-slide] > .active {
+.js [data-slide] > .active {
   position: relative;
   opacity: 1;
   transition: opacity 500ms;
   z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  background: #fec63e;
 }
