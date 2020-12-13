@@ -386,3 +386,20 @@ padding-top: 40px;
   background: #fec63e;
   padding: 20px;
 }
+
+/* JavaScript */
+/* 
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
