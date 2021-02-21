@@ -25,3 +25,7 @@ new SimpleForm({
   sucesso: "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve eu entro em contato com você.</p></div>", // mensagem de sucesso
 });
 }
+
+function aviso() {
+	alert('Site desenvolvido somente para fins acadêmicos. Para mais informações, favor entrar em contato no e-mail glauber_costa14@yahoo.com.br')
+}
